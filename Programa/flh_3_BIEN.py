@@ -58,7 +58,7 @@ class flh_3:
                 rel_probs_aux_alive = [rel_prob/sum(rel_probs_aux) for rel_prob in rel_probs_aux_alive]                
             rel_probs_aux_alive.append(new_rel_prob_aux) # Se añade la del nuevo hilo
             self.probs = [rel_prob/sum(rel_probs_aux_alive) for rel_prob in rel_probs_aux_alive] # Se actualizan las nuevas probabilidades para la próxima ejecución
-            # Parámetros del nuevo hilos
+            # Parámetros del nuevo hilo
             self.thread_times.append(1)
             self.thread_index.append(len(self.last_flows) - 1)
             i = self.total_time
@@ -73,9 +73,9 @@ class flh_3:
             # Se actualizan todos los índices teniendo en cuentas los hilos que se hayan eliminado
             self.thread_index = [index - min(self.thread_index) for index in self.thread_index]
             # Se ejecuta el algoritmo
-            self.predictions.append([0.0]) # Se reinician las predicciones
+            self.predictions.append([0.5]) # Se reinician las predicciones
             for i in range(0, len(self.lifetimes)):
-                if(i < len(self.lifetimes)):
+                if(i < len(self.lifetimes) -1):
                     aux = grad_descent_antiguo(self.predictions[i], self.thread_times[i], flow, self.m) 
                 else:
                     aux = grad_descent_antiguo(self.last_prediction, self.thread_times[i], flow, self.m)

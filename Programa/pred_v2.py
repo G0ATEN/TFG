@@ -52,7 +52,7 @@ def global_opt_result_simple(m, flows_T):
     res = float(res[0])
     return [res]
 
-##################################################### Funciones de pruebas pasadas. Para cáculos con múltiples variables y otros algoritos OCO ######################
+##################################################### Funciones de pruebas pasadas. Para cálculos con múltiples variables y otros algoritmos OCO ######################
 
 def getFlows(csv_route, precision):
     flows = []

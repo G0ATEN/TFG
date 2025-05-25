@@ -46,7 +46,7 @@ for link in data["links"]:
     source = tuple(link["source"])
     target = tuple(link["target"])
     distance = link.get("distance", 0)  
-    max_toded = link.get("max_toded", 0) # Capacidad instanánea
+    max_toded = link.get("max_toded", 0) # Capacidad instantánea
     vel = link.get("max_speed",0)
     t = (distance * 0.001 / vel) * 60
     weight = max_toded / t # Capacidad de las aristas
@@ -185,19 +185,19 @@ for i in range(1, len(flows)):
     # pred_values[i] = grad_descent(pred_values[i-1], flows[i-1], m=cut_value, step=1/(2 * (2 * cut_value**2)))
     
     # OGD con salto variable
-    pred_values[i] = grad_descent_antiguo(pred_values[i-1], t_time, flows[i - 1], cut_value)
-    t_time+=1 # Actualización de t
+    # pred_values[i] = grad_descent_antiguo(pred_values[i-1], t_time, flows[i - 1], cut_value)
+    # t_time+=1 # Actualización de t
 
     # FLH
     # pred_values[i] = flh_1.execute(flows[i - 1])
     
     # FLH2
-    # pred_values[i] = flh_2.execute(flows[i - 1])
+    pred_values[i] = flh_2.execute(flows[i - 1])
 
 
     # print("Iteración", i)
 
-# Cáculo de las pérdidas del algoritmo
+# Cálculo de las pérdidas del algoritmo
 f_results = [[]]*len(flows)
 for i in range(0, len(flows)):
     f_results[i] = resource_f_simple(pred_values[i], cut_value, flows[i])
