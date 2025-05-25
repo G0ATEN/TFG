@@ -1,6 +1,8 @@
 # DISEÑO E IMPLEMENTACIÓN DE UN ALGORITMO DE SLICING FIABLE PARA VEHÍCULOS CONECTADOS EN REDES B5G
 
-![Logo ETSIT UPM]([[https://www.etsit.upm.es/images/logo-etsit-upm.png](https://www.etsit.upm.es/fileadmin/documentos/laescuela/la_escuela/galerias_fotograficas/Servicios/generales/logos/LOGO_ESCUELA/LOGO_ESCUELA.png)](https://www.etsit.upm.es/fileadmin/documentos/laescuela/la_escuela/galerias_fotograficas/Servicios/generales/logos/LOGO_ESCUELA/LOGO_ESCUELA.png))
+<p align="center">
+  <img src="https://www.etsit.upm.es/images/logo-etsit-upm.png" alt="Logo ETSIT UPM" width="400"/>
+</p>
 
 > Trabajo realizado en el marco de la asignatura **[Nombre de la Asignatura]**  
 > Escuela Técnica Superior de Ingenieros de Telecomunicación – UPM  
