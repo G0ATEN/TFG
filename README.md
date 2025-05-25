@@ -23,8 +23,6 @@ El código permite simular distintos algoritmos de predicción de tráfico y com
 - **Entorno de desarrollo**: Visual Studio Code
 
 ## 🚀 Instrucciones de uso
-   
-bash
    git clone https://github.com/G0ATEN/TFG.git
 
 ## 🗂️ Descripción de los archivos
