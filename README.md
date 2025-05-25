@@ -1,32 +1,21 @@
 # DISEÑO E IMPLEMENTACIÓN DE UN ALGORITMO DE SLICING FIABLE PARA VEHÍCULOS CONECTADOS EN REDES B5G
 
-<p align="center">
-  <img src="https://www.etsit.upm.es/fileadmin/_processed_/3/c/csm_Panormica_ESCET_ETSIT_9ccfb055d5.jpg" alt="ETSIT UPM" width="700"/>
-</p>
-
-
-> Trabajo realizado en el marco de la asignatura **[Nombre de la Asignatura]**  
 > Escuela Técnica Superior de Ingenieros de Telecomunicación – UPM  
-> Curso [Año Académico]
+> Curso 2024/2025
 
 ---
 
 ## 📝 Descripción
 
-[Breve descripción del proyecto: objetivos, funcionalidades principales y contexto académico.]
-
----
+El código permite simular el sistema descrito en el Trabajo de Fin de Grado. Todas las gráficas y resultados presentados en el documento, se pueden comprobar con el código.
 
 ## 🧰 Tecnologías y herramientas
 
-- [Lenguaje de programación o plataforma principal]
-- [Herramientas de desarrollo utilizadas]
-- [Hardware específico, si aplica]
-
----
+- **Lenguaje principal:** Python 3
+- **Librerías utilizadas:** `networkx`, `numpy`, `scipy`, `matplotlib`, `json`
+- **Entorno de desarrollo:** VS Code
 
 ## 🚀 Instrucciones de uso
+Se detallan los pasos para poder comprobar los resultados.
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/usuario/repositorio.git
+
