@@ -14,7 +14,7 @@ El código permite simular distintos algoritmos de predicción de tráfico y com
 ## 🧰 Tecnologías utilizadas
 
 - **Lenguaje principal**: Python 3
-- **Librerías**:
+- **Librerías Principales**:
   - networkx
   - numpy
   - scipy
