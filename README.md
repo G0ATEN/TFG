@@ -20,7 +20,7 @@ El código permite simular diferentes algoritmos de predicción de tráfico y co
 ## 🚀 Instrucciones de uso
 A continuación se detallan los pasos para comprobar los resultados:
 
-- El primer paso es clonar el repositorio: git clone https://github.com/usuario/repositorio.git
+- El primer paso es clonar el repositorio: git clone (https://github.com/G0ATEN/TFG.git)
 - Seguidamente, se podrá acceder a las funciones y a los algoritmos desarrollados.
 - En los archivos `flh_1BIEN.py` y `flh_3BIEN.py` se encuentran implementados los algoritmos FLH y FLH2 respectivamente. Estos algoritmos se implementan a partir de una clase, y el método execute y devuelve el resultado de la ejecución del algoritmo.
 - En el archivo `pred_v2.py` se encuentran las funciones grad_descent y grad_descent_antiguo, que representan los algoritmos de OGD con salto fijo y salto variable respectivamente.
